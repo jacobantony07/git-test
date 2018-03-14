@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN</title>
+</head>
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+ <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<body class="gradientindexbg">
+        <div> 
+    
+            <div style="margin-top: 100px"></div>
+     
+   <form>
+         <div class="loginbox">
+                            <div class= "loginheader"><h6 class="userlogintext">User Login</h6></div>
+                        <div align="left" style="margin-left: 50px;">
+                            <br><h6 class="userloginboxtext" >USERNAME * : <input style="margin-left: 20px" class="textborder" type="text" placeholder="Username" id="Username"></h6>
+                                                
+                            <h6 class="userloginboxtext">PASSWORD * : <input style="margin-left: 20px" class="textborder" type="Password" placeholder="Password" id="Password"></h6>
+                        </div>
+                            <button class="loginbuttonblue" onclick="logged();">login</button>
+                        <div>
+                            <font class="Signuptext">No Account?<a href="reg.html">Sign up here</a></font>
+                        </div>
+
+     </div>
+     </form>
+     </div>
+</body>
+            <script type="text/javascript">
+                function logged()
+                {
+                    var Username=document.getElementById("Username").value;
+                    var Password=document.getElementById("Password").value;
+                            
+                    if(Username == "jake" && Password == "abc" )
+                        {
+                        alert( "validation succeeded" );
+                        window.open("home.html");
+                     
+                        }
+                     else
+                        {
+                        alert( "validation failed" );
+                        window.open("fail.html");
+                        }
+                }
+            </script>
+</html>
