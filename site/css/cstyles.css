@@ -1,0 +1,32 @@
+body{
+background: #ffd89b; 
+background: linear-gradient(to right, #19547b, #ffd89b); 
+}
+
+.head{
+	background-color: white;
+	opacity: 0.5;
+	width: 400px;
+	margin-left: 500px;
+	text-align: center;
+
+}
+
+#container1,#container2,#container3, #container4, #container5, #container6, #container7,#container8,#container9, #container10{
+    	font-family: 'Raleway', sans-serif;
+    	font-size:20px;
+    	font-size: normal;
+    	color:White;
+    	font-variant:uppercase;
+    	width:900;
+    	height:100px;
+    	background-color:black;
+    	opacity:0.3;
+    	text-align: center;
+
+}
+button{
+	width: 50px;
+	height: 20px;
+	border-radius: 3px;
+}
